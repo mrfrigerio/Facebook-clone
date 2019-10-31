@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/marcelo_ragnelli/.nvm/versions/node/v12.13.0/bin/node /Users/marcelo_ragnelli/.yarn/bin/yarn.js add @babel/core @babel/preset-env @babel/preset-react babel-loader @babel-plugin-proposal-class-properties webpack webpack-cli webpack-dev-server style-loader css-loader file-loader -D
+
+PATH: 
+  /Users/marcelo_ragnelli/.yarn/bin:/Users/marcelo_ragnelli/.config/yarn/global/node_modules/.bin:/Users/marcelo_ragnelli/.zplugin/polaris/bin:/Users/marcelo_ragnelli/.nvm/versions/node/v12.13.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/marcelo_ragnelli/.yarn/bin:/Users/marcelo_ragnelli/.config/yarn/global/node_modules/.bin:/Users/marcelo_ragnelli/.zplugin/polaris/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@babel-plugin-proposal-class-properties: Request "https://registry.yarnpkg.com/@babel-plugin-proposal-class-properties" returned a 405
+      at Request.params.callback [as _callback] (/Users/marcelo_ragnelli/.yarn/lib/cli.js:66935:18)
+      at Request.self.callback (/Users/marcelo_ragnelli/.yarn/lib/cli.js:140564:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/Users/marcelo_ragnelli/.yarn/lib/cli.js:141536:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/Users/marcelo_ragnelli/.yarn/lib/cli.js:141458:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "desafio04",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
